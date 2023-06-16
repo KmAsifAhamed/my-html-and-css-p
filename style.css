@@ -30,6 +30,12 @@
 .logo > h2 {
     color: whitesmoke;
     margin-left: 50px;
+    transform: 0.5s;
+}
+.cord:hover {
+    
+    color: orange;
+    
 }
 .C {
     color: orange;
@@ -112,5 +118,138 @@
     transition: 0.5s;
 }
 .container > button:hover {
+    background-color: black;
+}
+.container > h4 {
+    font-size: 25px;
+    color: wheat;
+}
+.container > h5 {
+    font-size: 25px;
+    color: bisque;
+    margin-bottom: 50px;
+}
+.icon > a {
+    color: white;
+    text-decoration: none;
+    
+}
+.icon > a > i{
+    font-size: 30px;
+    background-color: black;
+    border: 2px solid teal;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 10px 5px;
+    transition: 0.5s;
+}
+.icon > a > i:hover {
+    background-color:red;
+    border: 2px solid red;
+    transform: rotate(360deg);
+}
+
+/* first section code start */
+
+#main {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+
+.learn {
+    
+    width: 300px;
+    text-align: center;
+    transition: 0.5s;
+}
+.web {
+    
+    width: 300px;
+    text-align: center;
+    transition: 0.5s;
+}
+.free {
+    
+    width: 300px;
+    text-align: center;
+    transition: 0.5s;
+}
+.learn > i {
+    font-size: 50px;
+}
+.web > i {
+    font-size: 50px;
+}
+.free > i{
+    font-size: 50px;
+}
+.learn > h2 {
+    margin:15px 0px ;
+}
+.web > h2 {
+    margin: 15px 0px;
+}
+.free > h2 {
+    margin: 15px 0px;
+}
+.learn:hover {
+    box-shadow: 3px 3px 10px gray;
+}
+.web:hover {
+    box-shadow: 3px 3px 10px gray;
+}
+.free:hover {
+    box-shadow: 3px 3px 10px gray;
+}
+
+/* class part-9 second section code start */
+
+.smart-title > h2 {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+.smart-title > h2::after{
+    content: '';
+    top: 56px;
+    left: 650px;
+    width: 80px;
+    height: 5px;
+    background-color: brown;
+    position: absolute;
+}
+.area {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.text {
+    width: 500px;
+}
+   .text > h2 {
+margin:20px 0 ;
+   }
+.text > h4 {
+    color: brown;
+}
+.text > a {
+    text-decoration: none;
+    background-color: brown;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 20px 0;
+    padding: 10px 25px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.text > a:hover {
     background-color: black;
 }
