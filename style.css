@@ -253,3 +253,116 @@ margin:20px 0 ;
 .text > a:hover {
     background-color: black;
 }
+
+/* class p-10 third section code start */
+.service {
+    text-align: center;
+}
+.service > h2 {
+    font-size:40px ;
+    padding: 20px 0 60px 0;
+}
+.service-parent {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    padding-bottom: 60px;
+}
+.main-div {
+    width: 1000px;
+    margin: auto;
+}
+.service-parent {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 30px 0;
+    transition: 0.5s;
+    margin-left: 0cm;
+    
+}
+.first-c > i{
+    color: brown;
+    font-size: 40px;
+    padding: 30px 0;
+
+}
+.first-c > h3 {
+    margin: 15px 0;
+}
+.first-c:hover {
+    background-color: rgba(100, 134, 236, 0.671);
+}
+#third {
+    background-color: ghostwhite;
+}
+ 
+/* class p-11 4th section */
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.ptitle {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 35px;
+}
+.pimge {
+    width: 310px;
+    box-shadow:5px 5px 10px gray ;
+
+} .pimge > img {
+    max-width: 100%;
+}
+.jsp {
+    width: 310px;
+}
+.ptitle > h2 {
+    padding-bottom: 30px;
+}
+.pricingmp {
+    width: 1000px;
+
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+#sectionbg {
+    background-color: whitesmoke;
+}
+.jsp > h3 {
+    margin: 10px 0;
+    font-size: 25px;
+}
+.monthp {
+    
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    padding: 15px 0;
+    margin: 15px 20px;
+}
+.mspan1 {
+    font-size: 25px;
+}
+.mspan2 {
+    color: gray;
+}
+.jsp > button {
+    background-color: brown;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.jsp > button:hover {
+    background-color: rgba(165, 42, 42, 0);
+    color: black;
+}
+.jsp > a {
+    text-decoration: none;
+    margin: 15px 0;
+    display: inline-block;
+    margin-top:10px ;
+}
