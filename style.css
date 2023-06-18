@@ -252,6 +252,10 @@ margin:20px 0 ;
 }
 .text > a:hover {
     background-color: black;
+
+}
+.sct {
+    padding-bottom: 100px;
 }
 
 /* class p-10 third section code start */
@@ -365,4 +369,154 @@ margin:20px 0 ;
     margin: 15px 0;
     display: inline-block;
     margin-top:10px ;
+}
+
+/* p-12 testimonal section code start */
+
+.tt {
+    text-align: center;
+    padding: 50px 0;
+    
+}
+.tt h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    
+}
+.tt h4 {
+    color: gray;
+    letter-spacing: 0.2em;
+}
+.allt-p {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+    grid-gap: 25px;
+    background-color: white;
+    padding: 20px;
+}
+.singlet-p {
+    display: flex;
+    align-items: center;
+}
+.timg {
+    width: 200px;
+    
+    border-radius: 50%;
+    margin-right: 20px;
+    
+}
+.timg img {
+    max-width: 100%;
+    border-radius: 50%;
+    border: 1px solid brown;
+}
+
+.tcontainer {
+    width: 1000px;
+
+    margin: auto;
+    padding-bottom:100px ;
+}
+#tsection {
+    background-color: antiquewhite;
+}
+.tspan {
+font-size: 22px;
+margin-bottom: 10px;
+display: inline-block;
+}
+.trating {
+    color: #ffa534;
+    margin-top: 10px;
+}
+
+/* parallax section cod start */
+
+.parall-p {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+#para-sec {
+    background-image:url(image/parallax.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 0;
+    
+}
+
+.para-singlei i {
+font-size: 40px;
+}
+
+.para-singlei h2 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+/* p-13 Blog section  */
+.sbp {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-gap: 25px;
+}
+.blog-mp {
+    width:1000px ;
+    margin: auto;
+    padding-bottom:100px ;
+}
+
+.blogi {
+    max-width: 100%;
+    height: 250px;
+    transition: 0.5s;
+}
+.blog-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.image-icon {
+    position: relative;
+    overflow: hidden;
+    
+    
+    
+}
+.image-icon:hover .blog-icon {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.096);
+
+}
+
+.blog-icon i {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.image-icon:hover .blog-icon {
+transform: scale(1.5);
+}
+.blog-test {
+    text-align: center;
+    margin: 10px 0;
+}
+.blog-test > p {
+    margin-top: 10px ;
+    color: gainsboro;
 }
