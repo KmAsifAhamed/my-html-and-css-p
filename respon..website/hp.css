@@ -1,0 +1,9 @@
+.mainp {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 25px;
+}
+.ig {
+    width: 100%;
+}
